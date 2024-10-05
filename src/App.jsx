@@ -3,10 +3,12 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
+import { Button, Input } from "@material-tailwind/react";
 function App() {
   return (
     <div>
       <Navbar />
+      <Button>OK</Button>
       <Routes>
         <Route path="/" Component={Hero} />
       </Routes>
