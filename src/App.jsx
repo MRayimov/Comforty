@@ -8,7 +8,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Button>OK</Button>
       <Routes>
         <Route path="/" Component={Hero} />
       </Routes>
