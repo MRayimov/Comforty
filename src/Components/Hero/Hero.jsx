@@ -4,12 +4,13 @@ import { duration } from "@mui/material";
 import { FaBox } from "react-icons/fa";
 import { CiDeliveryTruck } from "react-icons/ci";
 import { Ri24HoursFill } from "react-icons/ri";
+import { RiSecurePaymentLine } from "react-icons/ri";
 const Hero = () => {
   return (
     <div>
       <div className="flex justify-center ">
         <Carousel
-          className="rounded-xl w-[1400px] h-[500px] bg-gray-200 "
+          className="rounded-xl w-[1400px] h-[500px] bg-gray-300 "
           autoplay
           autoplayDelay={5000}
           loop
@@ -68,8 +69,8 @@ const Hero = () => {
           </div>
         </Carousel>
       </div>
-      <div className="flex justify-center">
-        <div className="bg-white w-[1100px] h-[100px] rounded-lg flex justify-center items-center">
+      <div className="flex justify-center -translate-y-[50px]">
+        <div className="bg-white  w-[1100px] h-[100px] rounded-lg flex justify-evenly items-center shadow-lg">
           <div className="flex justify-center items-center">
             <FaBox className="w-[30px] h-[30px] m-1" />
             <div className="flex justify-center flex-col m-1">
@@ -87,7 +88,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <Ri24HoursFill className="w-[35px] h-[35px] m-1" />
+            <Ri24HoursFill className="w-[37px] h-[37px] m-1" />
             <div className="flex justify-center flex-col m-1">
               <h1 className="text-sm font-bold">Great Support 24/7</h1>
               <h1 className="text-gray-500 text-xs">
@@ -95,6 +96,54 @@ const Hero = () => {
               </h1>
             </div>
           </div>
+          <div className="flex justify-center items-center">
+            <RiSecurePaymentLine className="w-[37px] h-[37px] m-1" />
+            <div className="flex justify-center flex-col m-1">
+              <h1 className="text-sm font-bold">Secure Payment</h1>
+              <h1 className="text-gray-500 text-xs">
+                100% Secure Payment Method
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center">
+        <div className="flex justify-between items-center w-[1100px] h-[100px] ">
+          <img
+            className="w-[65px] h-[65px]"
+            src="./images/hero/fon1.png"
+            alt=""
+          />
+          <img
+            className="w-[65px] h-[65px]"
+            src="./images/hero/fon2.png"
+            alt=""
+          />
+          <img
+            className="w-[65px] h-[65px]"
+            src="./images/hero/fon3.png"
+            alt=""
+          />
+          <img
+            className="w-[65px] h-[65px]"
+            src="./images/hero/fon4.png"
+            alt=""
+          />
+          <img
+            className="w-[65px] h-[65px]"
+            src="./images/hero/fon5.png"
+            alt=""
+          />
+          <img
+            className="w-[65px] h-[65px]"
+            src="./images/hero/fon6.png"
+            alt=""
+          />
+          <img
+            className="w-[65px] h-[65px]"
+            src="./images/hero/fon7.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
